@@ -1,0 +1,38 @@
+{
+  "name": "express-middlewares",
+  "version": "0.1.1",
+  "description": "Express middleware collections",
+  "main": "./lib",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tarkus/express-middlewares.git"
+  },
+  "keywords": [
+    "express",
+    "middleware"
+  ],
+  "author": "Tarkus Liu <tarkus.nnkh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarkus/express-middlewares/issues"
+  },
+  "homepage": "https://github.com/tarkus/express-middlewares",
+  "dependencies": {
+    "static-favicon": "~1.0.2",
+    "cookie-parser": "~1.0.1",
+    "morgan": "~1.0.0",
+    "express-session": "~1.0.2",
+    "body-parser": "~1.0.2",
+    "errorhandler": "~1.0.0",
+    "connect-assets": "~2.5.3",
+    "compression": "~1.0.1"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "coffee-script": "~1.7.1",
+    "mocha": "~1.18.2"
+  }
+}
